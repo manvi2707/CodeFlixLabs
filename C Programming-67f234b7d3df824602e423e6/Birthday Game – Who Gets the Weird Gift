@@ -1,0 +1,1 @@
+[{"code":"#include<stdio.h>\r\nint findPrankReceiver(int n , int m , int s){\r\n    int req = m + s -1;\r\n    while(req>n){\r\n        req -= n;\r\n    }\r\n    return req;\r\n}","language":"c","time":"2025-04-11T14:51:14.582Z","isCorrect":true}]
