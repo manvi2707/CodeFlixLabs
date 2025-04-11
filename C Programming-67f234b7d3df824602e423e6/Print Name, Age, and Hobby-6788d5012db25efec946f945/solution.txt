@@ -1,0 +1,1 @@
+[{"code":"#include <stdio.h>\r\n\r\nint main(){\r\n    char name[100] , hobby[100];\r\n    int age;\r\n    scanf(\"%s %d %s\" , &name,&age,&hobby);\r\n    printf(\"Name: %s\\nAge: %d\\nHobby: %s\" , name,age,hobby);\r\n    return 0;\r\n}","language":"c","time":"2025-04-11T15:06:57.265Z","isCorrect":true}]
