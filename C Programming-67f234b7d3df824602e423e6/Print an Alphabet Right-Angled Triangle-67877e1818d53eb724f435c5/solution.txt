@@ -1,0 +1,1 @@
+[{"code":"#include<stdio.h>\r\nint main(){\r\n    int num;\r\n    scanf(\"%d\" , &num);\r\n    for(int j = 1; j <= num; j++){\r\n        for(char letter = 'A'; letter < 'A' + j; letter++ ){\r\n            printf(\"%c \" , letter);\r\n        }\r\n        printf(\"\\n\");\r\n    }\r\n    return 0;\r\n}","language":"c","time":"2025-04-13T16:04:18.493Z","isCorrect":true}]
