@@ -1,0 +1,1 @@
+[{"code":"#include<stdio.h>\r\nint searchInRotatedArray(int arr[] , int n , int target){\r\n    for(int i = 0; i<n; i++){\r\n        if(arr[i] == target){\r\n            return i;\r\n        }\r\n    }\r\n}","language":"c","time":"2025-04-22T13:12:02.625Z","isCorrect":false}]
